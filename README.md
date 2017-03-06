@@ -15,3 +15,9 @@ raspberry pi codes and useful commands
 * type " characteristics " for listing all charactristics on the GATT table, note down the uuuid and handle for read and write operations
 * For writing to a perticular characteristics, type " char-write-req 0x001e 11 " this will write value "11" to the specified handle
 * for reading a charactersistics value type "char-read-uuid 00001111-xxxx-xxx-xxx-xxxx"
+
+
+#SSH configs
+
+hostname -I
+ssh -Y pi@192.168.1.5
